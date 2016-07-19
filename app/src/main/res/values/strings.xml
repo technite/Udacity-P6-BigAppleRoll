@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Big Apple Roll 2016</string>
+
+    <string name="Hotels">Hotels</string>
+    <string name="Restaurants">Restaurants</string>
+    <string name="Stores">Skate Shops</string>
+    <string name="Meetings">Meeting Locations</string>
+
+</resources>
