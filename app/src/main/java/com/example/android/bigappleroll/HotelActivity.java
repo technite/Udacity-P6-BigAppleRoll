@@ -15,14 +15,14 @@ public class HotelActivity extends AppCompatActivity {
 
         ArrayList<Location> hotels = new ArrayList<Location>();
 
-        hotels.add(new Location("The Holiday Inn", "99 Washington Street\nNew York, NY 10006", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("The Broome", "431 Broome Street\nNew York City, NY 10013", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("SIXTY SoHo", "60 Thompson Street\nNew York City, NY 10012", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("Crosby Street Hotel", "79 Crosby Street\nNew York City, NY 10012", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("The James New York", "27 Grand St. \nNew York City, NY 10013", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("Soho Grand Hotel", "310 West Broadway \nNew York City, NY 10013-2225", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("NOMO SOHO Hotel", "79 Crosby Street \nNew York City, NY 10012", "(212) 791-2900",R.drawable.hotel_ic));
-        hotels.add(new Location("Hampton Inn Manhattan-SoHo", "54 Watts St \nNew York City, NY 10013-1912", "(212) 791-2900",R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.holiday_inn), getString(R.string.holiday_inn_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.broome), getString(R.string.broome_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.sixty_soho), getString(R.string.sixty_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.crosby_street_hotel), getString(R.string.crosby_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.the_james), getString(R.string.the_james_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.soho_grand), getString(R.string.soho_grand_addr),getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.nomo_soho), getString(R.string.nomo_soho_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
+        hotels.add(new Location(getString(R.string.hampton_inn), getString(R.string.hampton_inn_addr), getString(R.string.hotel_phone_nums),R.drawable.hotel_ic));
 
 
         LocationAdapter adapter = new LocationAdapter(this, hotels);

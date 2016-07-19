@@ -15,9 +15,9 @@ public class ShoppingActivity extends AppCompatActivity {
 
         ArrayList<Location> stores = new ArrayList<>();
 
-        stores.add(new Location("Blades","659 Broadway \nNew York, NY 10012","(212) 477-7350", R.drawable.shopping_bag));
-        stores.add(new Location("Paragon","867 Broadway \nNew York, NY 10003","(800) 961-3030", R.drawable.shopping_bag));
-        stores.add(new Location("Modell's Sporting Goods","607 Ave of Americas \nNew York, NY","(212) 989-1110", R.drawable.shopping_bag));
+        stores.add(new Location(getString(R.string.blades),getString(R.string.blades_addr),getString(R.string.blades_phone_num), R.drawable.shopping_bag));
+        stores.add(new Location(getString(R.string.paragon),getString(R.string.paragon_addr),getString(R.string.paragon_phone_num), R.drawable.shopping_bag));
+        stores.add(new Location(getString(R.string.modells),getString(R.string.modells_addr),getString(R.string.modells_phone_num), R.drawable.shopping_bag));
 
 
         LocationAdapter adapter = new LocationAdapter(this, stores);

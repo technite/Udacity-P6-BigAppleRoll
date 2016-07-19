@@ -6,4 +6,74 @@
     <string name="Stores">Skate Shops</string>
     <string name="Meetings">Meeting Locations</string>
 
+    <!-- Meetings -->
+    <string name="Union_Square">Union Square</string>
+    <string name="usq_address">101 East 14th St \nNew York, NY</string>
+    <string name="battery_park">Battery Park</string>
+    <string name="battery_park_address">399 Albany St \nNew York, NY</string>
+    <string name="usq_phone_num">(212) 555-5000</string>
+    <string name="battery_park_phone_num">(212) 555-5000</string>
+
+    <!-- Shopping -->
+    <string name="blades">Blades</string>
+    <string name="paragon">Paragon</string>
+    <string name="modells">Modell\'s Sporting Goods</string>
+    <string name="blades_addr">659 Broadway \nNew York, NY 10012</string>
+    <string name="paragon_addr">867 Broadway \nNew York, NY 10003</string>
+    <string name="modells_addr">607 Ave of Americas \nNew York, NY</string>
+    <string name="blades_phone_num">(212) 477-7350</string>
+    <string name="paragon_phone_num">(800) 961-3030</string>
+    <string name="modells_phone_num">(212) 989-1110</string>
+
+
+    <!-- Hotels -->
+    <string name="holiday_inn">The Holiday Inn</string>
+    <string name="broome">The Broome</string>
+    <string name="sixty_soho">SIXTY SoHo</string>
+    <string name="crosby_street_hotel">Crosby Street Hotel</string>
+    <string name="the_james">The James New York</string>
+    <string name="soho_grand">Soho Grand Hotel</string>
+    <string name="nomo_soho">NOMO SOHO Hotel</string>
+    <string name="hampton_inn">Hampton Inn Manhattan-SoHo</string>
+    <string name="holiday_inn_addr">99 Washington Street\nNew York, NY 10006</string>
+    <string name="broome_addr">431 Broome Street\nNew York City, NY 10013</string>
+    <string name="sixty_addr">60 Thompson Street\nNew York City, NY 10012</string>
+    <string name="crosby_addr">79 Crosby Street\nNew York City, NY 10012</string>
+    <string name="the_james_addr">27 Grand St. \nNew York City, NY 10013</string>
+    <string name="soho_grand_addr">310 West Broadway \nNew York City, NY 10013-2225</string>
+    <string name="nomo_soho_addr">79 Crosby Street \nNew York City, NY 10012</string>
+    <string name="hampton_inn_addr">54 Watts St \nNew York City, NY 10013-1912</string>
+    <string name="hotel_phone_nums">(212) 791-2900</string>
+
+
+    <!-- Restaurants -->
+    <string name="pier_a">Pier A Harbor House</string>
+    <string name="upstate">Upstate</string>
+    <string name="amelie">Amélie</string>
+    <string name="bea">Bea</string>
+    <string name="alcove">The Alcove</string>
+    <string name="traif">Traif</string>
+    <string name="the_greek">The Greek</string>
+    <string name="barn_joo">Barn Joo 35</string>
+    <string name="cask"><![CDATA[Cask Bar & Kitchen]]></string>
+    <string name="pier_a_addr">22 Battery Pl\nNew York, NY 10004</string>
+    <string name="upstate_addr">95 1st Ave \nNew York, NY 10003</string>
+    <string name="amelie_addr">22 W 8th St \nNew York, NY 10011</string>
+    <string name="bea_addr">403 W 43rd St \nNew York, NY 10036</string>
+    <string name="alcove_addr">41-11 49th Street \nSunnyside, NY 11104</string>
+    <string name="traif_addr">229 S 4th St \nBrooklyn, NY 11211</string>
+    <string name="the_greek_addr">458 Greenwich St \nNew York, NY 10013</string>
+    <string name="barn_joo_addr">34 W 35th St \nNew York, NY 10001</string>
+    <string name="cask__addr">167 E 33rd St \nNew York, NY 10016</string>
+    <string name="pier_a_phone_num">(212) 785-0153</string>
+    <string name="upstate_phone_num">(917) 408-3395</string>
+    <string name="amelie_phone_num">(212) 533-2962</string>
+    <string name="bea_phone_num">(212) 602-1910</string>
+    <string name="alcove_phone_num">(347) 813-4159</string>
+    <string name="traif_phone_num">(347) 844-9578</string>
+    <string name="the_greek_phone_num">(646) 476-3941</string>
+    <string name="barn_joo_phone_num">(212) 564-4430</string>
+    <string name="cask_phone_num">(212) 300-4924</string>
+
+
 </resources>

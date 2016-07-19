@@ -20,15 +20,15 @@ public class RestaurantsActivity extends AppCompatActivity{
 
         ArrayList<Location> restaurants = new ArrayList<Location>();
 
-        restaurants.add(new Location("Pier A Harbor House", "22 Battery Pl\nNew York, NY 10004", "(212) 785-0153", R.drawable.dining_image));
-        restaurants.add(new Location("Upstate","95 1st Ave \nNew York, NY 10003","(917) 408-3395", R.drawable.dining_image));
-        restaurants.add(new Location("Amélie","22 W 8th St \nNew York, NY 10011","(212) 533-2962", R.drawable.dining_image));
-        restaurants.add(new Location("Bea","403 W 43rd St \nNew York, NY 10036","(212) 602-1910", R.drawable.dining_image));
-        restaurants.add(new Location("The Alcove","41-11 49th Street \nSunnyside, NY 11104","(347) 813-4159", R.drawable.dining_image));
-        restaurants.add(new Location("Traif","229 S 4th St \nBrooklyn, NY 11211","(347) 844-9578", R.drawable.dining_image));
-        restaurants.add(new Location("The Greek","458 Greenwich St \nNew York, NY 10013","(646) 476-3941", R.drawable.dining_image));
-        restaurants.add(new Location("Barn Joo 35","34 W 35th St \nNew York, NY 10001","(212) 564-4430", R.drawable.dining_image));
-        restaurants.add(new Location("Cask Bar & Kitchen","167 E 33rd St \nNew York, NY 10016","(212) 300-4924", R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.pier_a), getString(R.string.pier_a_addr), getString(R.string.pier_a_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.upstate),getString(R.string.upstate_addr),getString(R.string.upstate_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.amelie),getString(R.string.amelie_addr),getString(R.string.amelie_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.bea),getString(R.string.bea_addr),getString(R.string.bea_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.alcove),getString(R.string.alcove_addr),getString(R.string.alcove_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.traif),getString(R.string.traif_addr),getString(R.string.traif_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.the_greek),getString(R.string.the_greek_addr),getString(R.string.the_greek_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.barn_joo),getString(R.string.barn_joo_addr),getString(R.string.barn_joo_phone_num), R.drawable.dining_image));
+        restaurants.add(new Location(getString(R.string.cask),getString(R.string.cask__addr),getString(R.string.cask_phone_num), R.drawable.dining_image));
 
         LocationAdapter adapter = new LocationAdapter(this, restaurants);
 
